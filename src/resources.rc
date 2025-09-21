@@ -1,0 +1,12 @@
+#include "resource.h"
+
+// Embed the actual PNG files
+IDB_TANK1_PNG           RCDATA "TANK1.png"
+IDB_TANK2_PNG           RCDATA "TANK2.png"
+IDB_TANK1_BULLET_PNG    RCDATA "TANK1_BULLET.png"
+IDB_TANK2_BULLET_PNG    RCDATA "TANK2_BULLET.png"
+IDB_WALL_PNG            RCDATA "WALL.png"
+
+// Embed sound files (placeholders - replace with actual WAV files)
+// IDS_SHOOT_SOUND         WAVE "shoot.wav"
+// IDS_EXPLOSION_SOUND     WAVE "explosion.wav"
