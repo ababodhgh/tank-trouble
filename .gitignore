@@ -1,0 +1,56 @@
+# Build outputs
+*.exe
+*.dll
+*.lib
+*.obj
+*.o
+*.a
+*.so
+*.out
+*.res
+*.pdb
+*.ilk
+*.sdf
+*.opensdf
+*.aps
+*.vcxproj.filters
+*.vcxproj.user
+*.suo
+*.user
+*.log
+build/
+bin/
+obj/
+Debug/
+Release/
+x64/
+Win32/
+
+# IDE files
+.vs/
+.vscode/
+*.vcxproj
+*.sln
+
+# Temporary files
+*.tmp
+*.temp
+*~
+.DS_Store
+Thumbs.db
+
+# CMake
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles/
+
+# MinGW
+*.exe.stackdump
+
+# Docker
+Dockerfile.*
+docker-compose.*.yml
+
+# Resource files
+resources.res
+*.rc.tmp
